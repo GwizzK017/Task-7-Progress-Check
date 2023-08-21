@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trips - RogueTideExpeditions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+        <img src="logo.png" alt="Logo" width="40" height="40">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="trips.html">Trips</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#checkout">Checkout</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Page Header -->
+<header class="page-header">
+    <h1>Explore Our Exciting Trips</h1>
+</header>
+
+<!-- Trips Filter -->
+<div class="filter-container">
+    <label for="destination">Filter by Destination:</label>
+    <select id="destination">
+        <option value="all">All Destinations</option>
+        <option value="caribbean">Caribbean</option>
+        <option value="mediterranean">Mediterranean</option>
+        <!-- Add more destination options here -->
+    </select>
+</div>
+
+<!-- Trips List -->
+<div class="trips-container">
+    <div class="trip-card" data-destination="caribbean">
+        <img src="Assets/reiseuhu-EUFPvipu16A-unsplash.jpg" alt="Caribbean">
+        <h2>Caribbean Cruise</h2>
+        <p>Embark on a tropical adventure in the Caribbean Sea.</p>
+        <button class="select-trip-button">Select Trip</button>
+    </div>
+    <!-- Add more trip cards here -->
+</div>
+
+<!-- JavaScript for Filter and Select Buttons -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="trips.js"></script>
+</body>
+</html>

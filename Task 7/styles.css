@@ -1,0 +1,41 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar styles */
+.navbar {
+    background-color: #f8f9fa;
+}
+
+.navbar-brand img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Hero slider styles */
+#heroSlider {
+    margin-top: 20px;
+}
+
+/* Weather display styles */
+#weather {
+    margin-top: 20px;
+}
+
+/* Additional sections (accordions) styles */
+.card-header {
+    background-color: #f8f9fa;
+}
+
+/* Footer styles */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
